@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  background: rgb(228, 14, 50);
+}
+
+body {
+  background: rgb(83, 54, 110);
+  max-width: 960px;
+  color: #232323;
+  margin: 0 auto;
+}
+main {
+  min-height: 100vh;
+  padding: 64px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+  box-sizing: border-box;
+  position: fixed;
+  height: 64px;
+  padding: 16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0 -2px 4px -2px black;
+}
+
+footer .media-link {
+  height: 32px;
+}
+
+footer a {
+  margin-right: 64px;
+  text-decoration: none;
+}
+
+footer a:last-child {
+  margin-right: 0;
+}
+
+footer {
+  background: #f8f8f8;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 2vh;
+    border: 2px solid black;
+    height: 5vh;
+    padding: 8px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: chocolate;
+  }
+  a:link{text-decoration: none;}
+  .quote {
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px
+  }

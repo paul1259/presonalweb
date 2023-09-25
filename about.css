@@ -1,0 +1,45 @@
+h1, h2, section {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  section > img {
+    height: 128px;
+  }
+  
+  section:nth-of-type(odd) > img {
+    float: left;
+    margin: 0 24px 24px 0;
+  }
+  
+  
+  section:nth-of-type(even) > img {
+    float: right;
+    margin: 0 0 24px 24px;
+  }
+  
+  section {
+    border-top: 1px solid #bbb;
+  }
+  a:link{text-decoration: none;}
+  a:link{color: black;}
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+    background-color: blueviolet;
+  }
+  main{ 
+    padding-top: 5vh;
+  }
